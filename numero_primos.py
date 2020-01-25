@@ -14,7 +14,7 @@ def is_prime(number):
         return True    
 
                               
-def carlos():
+def run():
     number = int(raw_input('Escribe un numero: '))
     result = is_prime(number) 
 
@@ -24,4 +24,4 @@ def carlos():
         print('Tu numero NO es primo')
 
 if __name__ == '__main__':
-  carlos()
+  run()
